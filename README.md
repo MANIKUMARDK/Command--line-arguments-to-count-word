@@ -25,8 +25,8 @@ Display the total words in the file.
 
 ## PROGRAM:
 ```
-Developed by: SANJAI L
-Register no: 212223230184
+#Developed by: MANIKUMAR DK
+#RegisterNumber: 212223230121
 import sys
 fp=open(sys.argv[1])
 wordcount=0
@@ -38,7 +38,8 @@ fp.close()
 ```
 ### OUTPUT:
 
-![image](https://github.com/SanjaiOfficial/Command--line-arguments-to-count-word/assets/151763180/f74f2f76-3aae-43cc-be7f-79f0ea595575)
+![image](https://github.com/SanjaiOfficial/Command--line-arguments-to-count-word/assets/147215581/663da126-bcee-4d4e-8378-137d2ea38226)
+
 
 ![image](https://github.com/SanjaiOfficial/Command--line-arguments-to-count-word/assets/151763180/75a7e715-d1b4-46a7-a50c-f8c8aca31adc)
 
