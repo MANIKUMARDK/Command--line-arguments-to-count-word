@@ -5,22 +5,44 @@ To write a python program for getting the word count from the contents of a file
 PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
-### Step 1:
+## Step 1:
+Import sys module to use command line arguments.
 
-### Step 2: 
- 
-### Step 3: 
+## Step 2:
+Create a file pointer and open the file which is passed in command line.
 
-### Step 4:  
+## Step 3:
+Initialize word count as zero.
 
-### Step 5: 
+## Step 4:
+For each line in file, split it into words and find number of the words in every line.
 
-### Step 6: 
+## Step 5:
+Sum the number of words in each line.
+
+## Step 6:
+Display the total words in the file.
 
 ## PROGRAM:
-
+```
+#Developed by : MANIKUMAR DK
+#Register number : 212223230121
+import sys
+fp=open(sys.argv[1])
+wordcount=0
+for i in fp:
+    words=i.split()
+    wordcount+=len(words)
+print("Total no of words in file is",wordcount)
+fp.close()
+```
 ### OUTPUT:
 
+
+
+![Screenshot 2024-05-11 200841](https://github.com/MANIKUMARDK/Command--line-arguments-to-count-word/assets/147215581/e2a3990d-c18a-4d73-931d-652e5dbbbcf0)
+
+![image](https://github.com/SanjaiOfficial/Command--line-arguments-to-count-word/assets/151763180/75a7e715-d1b4-46a7-a50c-f8c8aca31adc)
 
 
 ## RESULT:
